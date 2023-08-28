@@ -1,7 +1,7 @@
 {
     "name": "matrix-rines-y-llantas/botman-tinker",
     "license": "MIT",
-    "description": "BotMan tinker command for your Laravel BotMan project",
+    "description": "Comando de BotMan tinker para tu proyecto de BotMan en Laravel",
     "keywords": [
         "Bot",
         "BotMan",

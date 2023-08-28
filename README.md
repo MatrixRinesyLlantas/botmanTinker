@@ -1,27 +1,27 @@
 # BotMan Tinker
 
-Gives your Laravel chatbot the ability to try your chatbot in your local terminal.
+Esta libreria te permite probar tu chatbot en una terminal local.
 
-## Installation
+## Instalacion
 
-Run `composer require botman/tinker` to install the composer dependencies.
+Ejecuta `matrix-rines-y-llantas/botman-tinker` para agregar la libreria a tu proyecto de laravel.
 
-Then in your `config/app.php` add
+Despues en tu archivo `config/app.php` agrega la siguiente linea:
 
 ```php
 BotMan\Tinker\TinkerServiceProvider::class,
 ```
 
-to the `providers` array.
+dentro del arreglo(array) de `providers`.
 
-## Usage
+## Uso
 
-You now have a new Artisan command that helps you to test and develop your chatbot locally:
+Ahora solo tienes que ejecutar el nuevo comando en tu terminal y podras pobrar tu chatbot localmente:
 
 ```php
 php artisan botman:tinker
 ```
 
-## License
+## Licencia
 
-BotMan and Tinker is free software distributed under the terms of the MIT license.
+BotMan y Tinker es un software gratuito distribuido bajo los terminos de la licencia MIT.
