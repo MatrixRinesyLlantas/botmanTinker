@@ -12,7 +12,6 @@ use Clue\React\Stdio\Stdio;
 use Illuminate\Support\Collection;
 use Symfony\Component\HttpFoundation\Response;
 
-
 class ConsoleDriver implements DriverInterface
 {
     /** @var string */
@@ -196,6 +195,11 @@ class ConsoleDriver implements DriverInterface
     }
 
     public function getPayload()
+    {
+        return false;
+    }
+
+    public function typesAndWaits(IncomingMessage $matchingMessage, float $seconds)
     {
         return false;
     }
